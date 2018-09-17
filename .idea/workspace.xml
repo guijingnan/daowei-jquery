@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bff64059-4719-4e9b-badf-d41bc397b70c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/index.css" afterPath="$PROJECT_DIR$/build/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/index.less" afterPath="$PROJECT_DIR$/public/less/index.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/serviceComment.html" afterPath="$PROJECT_DIR$/public/serviceComment.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -305,29 +301,6 @@
               <item name="daowei_jq" type="b2602c69:ProjectViewProjectNode" />
               <item name="daowei_jq" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="daowei_jq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daowei_jq" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="daowei_jq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daowei_jq" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="daowei_jq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daowei_jq" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="less" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="daowei_jq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daowei_jq" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -387,16 +360,15 @@
       <workItem from="1536981448505" duration="36700000" />
       <workItem from="1537058985057" duration="36017000" />
       <workItem from="1537144587913" duration="6544000" />
-      <workItem from="1537151646329" duration="12046000" />
+      <workItem from="1537151646329" duration="12732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91307000" />
+    <option name="totallyTimeSpent" value="91993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="720" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -404,7 +376,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -799,15 +771,15 @@
         <state relative-caret-position="370">
           <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="36" />
           <folding>
-            <marker date="1537170248388" expanded="true" signature="4564:4686" ph="{&quot;effect&quot;: 'fade'...}" />
-            <marker date="1537170248388" expanded="true" signature="4621:4682" ph="{&quot;el&quot;: '.swiper-pagination'...}" />
-            <marker date="1537170248388" expanded="true" signature="4724:4837" ph="{...}" />
-            <marker date="1537170248388" expanded="true" signature="4894:5302" ph="{...}" />
-            <marker date="1537170248388" expanded="true" signature="4943:5088" ph="{...}" />
-            <marker date="1537170248388" expanded="true" signature="5141:5297" ph="{...}" />
-            <marker date="1537170248388" expanded="true" signature="5405:5607" ph="{...}" />
-            <marker date="1537170248388" expanded="true" signature="5462:5503" ph="{...}" />
-            <marker date="1537170248388" expanded="true" signature="5559:5603" ph="{...}" />
+            <marker date="1537170402448" expanded="true" signature="4564:4686" ph="{&quot;effect&quot;: 'fade'...}" />
+            <marker date="1537170402448" expanded="true" signature="4621:4682" ph="{&quot;el&quot;: '.swiper-pagination'...}" />
+            <marker date="1537170402448" expanded="true" signature="4724:4837" ph="{...}" />
+            <marker date="1537170402448" expanded="true" signature="4894:5302" ph="{...}" />
+            <marker date="1537170402448" expanded="true" signature="4943:5088" ph="{...}" />
+            <marker date="1537170402448" expanded="true" signature="5141:5297" ph="{...}" />
+            <marker date="1537170402448" expanded="true" signature="5405:5607" ph="{...}" />
+            <marker date="1537170402448" expanded="true" signature="5462:5503" ph="{...}" />
+            <marker date="1537170402448" expanded="true" signature="5559:5603" ph="{...}" />
           </folding>
         </state>
       </provider>
