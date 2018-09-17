@@ -1,0 +1,18 @@
+{{each serverData as value i}}
+<li class="left-service-li">
+  <a href="../serviceComment.html">
+    <img src={{value.imgUrl}}>
+    <div class="title">
+      <i class="iconfont icon-dianpu"></i>
+      <span>{{value.title}}</span>
+    </div>
+    <div class="order">
+      <span>已接单{{value.orderCount}}单</span>
+      <span>好评{{value.positiveRate}}%</span>
+    </div>
+  </a>
+</li>
+{{/each}}
+<li id="getServiceList"  class="fenye">
+  <span>查看更多商家<i class="iconfont icon-down"></i></span>
+</li>

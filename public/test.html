@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+<ul id="list">
+
+</ul>
+<script id="text1" type="text/html" >
+  {{ for(var i=0;i<5;i++) }}
+  {{i}}
+  {{/for}}
+</script>
+<script id="test" type="text/html">
+  <h1>{{data[0].title}}</h1>
+  <ul>
+    {{each data as value i}}
+    <li>索引 {{i + 1}}</li>
+    {{/each}}
+  </ul>
+</script>
+<script type="text/javascript" src="./js/jquery-1.10.1.js"></script>
+<script type="text/javascript" src="./js/template.js"></script>
+<script type="text/javascript">
+  $(function () {
+    $.get('http://localhost:3000/service',function (data) {
+      let obj={data}
+      console.log(obj)
+      let htm=template('test',obj);
+      $('body').append(htm)
+    })
+
+
+
+
+
+
+  })
+</script>
+</body>
+</html>

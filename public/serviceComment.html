@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/serviceComment.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="http://at.alicdn.com/t/font_826712_om30fp3trdf.css">
+  <script src="js/template.js"></script>
+  <script src="js/jquery-1.10.1.js"></script>
+</head>
+<body>
+<div id="commentContainer">
+  <div class="header">
+    <div class="daoweilogo">
+      <a href="javascript:;">
+        <img src="./image/logo@2x.png" alt="">
+      </a>
+    </div>
+    <ul class="mainBar">
+      <li class="citys">
+        <img src="./image/citypoint.png">
+        <i id="showCity">北京</i>
+        <i id="city">切换城市</i>
+      </li>
+      <li  class="showRed">
+        <a href="./index.html">首页</a>
+      </li>
+      <li  class="showRed">
+        <a href="javascript:;">到位APP</a>
+      </li>
+      <li  class="showRed">
+        <a href="./serviceProvider.html">服务商</a>
+      </li>
+      <li  class="showRed">
+        <a href="javascript:;">商家入驻</a>
+      </li>
+      <li  class="showRed">
+        <a href="javascript:;">关于我们</a>
+      </li>
+      <li class="shopLogin">
+        <a href="javascript:;">商家登陆</a>
+      </li>
+    </ul>
+  </div>
+  <div class="body">
+    <div class="shopTitle">
+    </div>
+    <div class="itemBar">
+      <div>
+        <span class="items on">服务项目</span>
+        <span class="items">商家简介</span>
+        <span class="items">用户评论</span>
+      </div>
+    </div>
+    <div class="serviceItem" id="serviceItem">
+     <div>
+       <div class="leftItem">
+         <div class="serviceTitle">
+           <span>服务项目</span>
+         </div>
+       </div>
+       <div class="rightItem">
+         <div >
+           <img src="http://www.daoway.cn/pcimages/fuwushang2_07.jpg" alt="">
+         </div>
+         <div >
+           <div >
+             <img src="./image/tuijianfuwushang_06.jpg" alt="">
+           </div>
+         </div>
+       </div>
+     </div>
+    </div>
+    <div id="getServiceList"  class="fenye">
+      <span class="checkShop">查看更多商家<i class="iconfont icon-down"></i></span>
+    </div>
+    <div class="shopBrief" id="shopBrief">
+      <div>
+        <div class="BriefTitle">
+          <span>商家简介</span>
+        </div>
+        <div class="briefDes">
+          <h2>上海家谐网络科技有限公司<img src="http://www.daoway.cn/pcimages/renzheng.jpg"></h2>
+          <p>云家政是家政服务在线预订平台。我们的目标是让每个家庭都能获得诚信、便捷、有保障的家政服务。云家政拥有国内最大的实名认证家庭服务员数据库，目前平台上有超过100000名专业服务人员；数百个家政服务商，遍布全国主要城市各个社区。 云家政倡导简单、轻松的生活方式。通过把分散的家政服务能力汇集和分配，让中国家庭获得诚信、便捷、有保障的家政服务，解决日常生活中的麻烦事，把更多时间留给自己和家人，提高生活品质。</p>
+        </div>
+      </div>
+    </div>
+    <div class="UserComment" id="lookcomment">
+      <div>
+        <div class="UserCommentTitle">
+          <span>用户评论</span>
+          <i>(2096条评论)</i>
+        </div>
+        <ul class="commenContent"></ul>
+      </div>
+    </div>
+    <div class="paging">
+      <ul>
+        <li class="back"> &lt;上一页 </li>
+        <li class="pageNum on">1</li>
+        <li class="pageNum">2</li>
+        <li class="pageNum">3</li>
+        <li class="pageNum">4</li>
+        <li class="pageNum">5</li>
+        <li class="pageNum">6</li>
+        <li class="pageNum">7</li>
+        <li class="pageNum">8</li>
+        <li class="pageNum">9</li>
+        <li class="pageNum">10</li>
+        <li class="ellipsis">...</li>
+        <li class="go"> 下一页> </li>
+      </ul>
+    </div>
+    <p class="bottom-title">到位
+      <i>服务</i>
+      保障</p>
+    <p class="des">到位平台担保交易安全，交易未成功100%退款</p>
+    <div class="service">
+      <span>
+        <i class="iconfont icon-tick"></i>
+        优选服务
+      </span>
+      <span>
+         <i class="iconfont icon-tick"></i>
+        全程保障
+      </span>
+      <span>
+         <i class="iconfont icon-tick"></i>
+        安全无忧
+      </span>
+    </div>
+    <div class="footer">
+      <span class="hotcity">热门城市</span>
+      <ul class="hotList">
+        <li><a href="#">北京</a></li>
+        <li><a href="#">上海</a></li>
+        <li><a href="#">广州</a></li>
+        <li><a href="#">深圳</a></li>
+        <li><a href="#">成都</a></li>
+        <li><a href="#">天津</a></li>
+        <li><a href="#">南京</a></li>
+        <li><a href="#">杭州</a></li>
+        <li><a href="#">重庆</a></li>
+        <li><a href="#">苏州</a></li>
+        <li><a href="#">武汉</a></li>
+        <li><a href="#">长沙</a></li>
+        <li><a href="#">济南</a></li>
+        <li><a href="#">郑州</a></li>
+        <li><a href="#">温州</a></li>
+        <li><a href="#">南宁</a></li>
+        <li><a href="#">贵阳</a></li>
+        <li><a href="#">昆明</a></li>
+        <li><a href="#">太原</a></li>
+        <li><a href="#">哈尔滨</a></li>
+        <li><a href="#">哈尔滨</a></li>
+        <li><a href="#">石家庄</a></li>
+        <li><a href="#">石家庄</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">北京</a></li>
+
+      </ul>
+    </div>
+    <div class="beian">
+      <p>©2015 版权所有 到位 daoway.com 京ICP备15001471号-1 北京邻家科技有限公司</p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+$(function () {
+  let comments=[];
+  let currentComments=[];
+  let page=1;
+  $('.showRed').click(function (e) {
+    console.log($(this))
+    $(this).addClass('on').siblings().removeClass('on');
+  })
+  $('.items').click(function (e) {
+    console.log($(this).addClass('on').siblings())
+    $(this).addClass('on').siblings().removeClass('on');
+    if(this.textContent==='服务项目'){
+      document.getElementById('serviceItem').scrollIntoView();
+    }else if(this.textContent==='商家简介'){
+      document.getElementById('shopBrief').scrollIntoView();
+    }else{
+      document.getElementById('lookcomment').scrollIntoView();
+    }
+
+  })
+  $.get('http://localhost:3000/item',function (data) {
+    console.log(data)
+    $.get('template/commentItem.html',function (datas) {
+      const serverData = data
+      const render = template.compile(datas)
+      let service= render({serverData})
+      $('.shopTitle').append(service)
+    })
+
+  })
+  $.get('http://localhost:3000/index',function (data) {
+    $.get('template/leftItemShop.html',function (datas) {
+      let serverData = data;
+      let OldServerList=[]
+      let NewServers=[]
+      let allServers = []
+      let commentPage=0;
+      serverData.forEach((item,index)=> {
+        OldServerList.push(item.shopList)
+      });
+      NewServers=OldServerList[commentPage]
+      allServers.push(NewServers)
+      const render = template.compile(datas)
+      let service= render({NewServers});
+      $('.leftItem').append(service)
+      //查看更多商家
+      $('.checkShop').click(function (e) {
+        commentPage = commentPage +1
+        NewServers=OldServerList[commentPage];
+        allServers.push(NewServers)
+        const render = template.compile(datas)
+        let service= render({NewServers});
+        $('.leftItem').append(service)
+        console.log(OldServerList.length,allServers.length)
+        if(OldServerList.length===allServers.length){
+          $('.checkShop').addClass('off')
+        }
+      })
+    })
+  })
+  $.get('http://localhost:3000/comments',function (data) {
+    $.get('template/commenContent.html',function (datas) {
+      comments = data;
+      currentComments=comments.slice(0,10);
+      //因为是异步的，元素有可能没有加载完，所以设置定时器，求出星星
+      setTimeout(function () {
+        getStar(currentComments)
+      },1000)
+
+      const render = template.compile(datas)
+      let service= render({currentComments});
+      $('.commenContent').append(service)
+      //分页器
+      $('.pageNum').click(function (e) {
+        //点击页数时，跳转到评论的首部
+        document.getElementById('lookcomment').scrollIntoView();
+        //获取电极的页数
+       let pageNum = this.textContent;
+       //把页数保存成全局变量，方便其他函数引用
+       page = pageNum;
+       //根据页数显示当前的评论数组
+        currentComments = comments.slice(pageNum*10-10,pageNum*10)
+        service= render({currentComments});
+        //先把评论的容器内容清空，在放入新的评论数组
+        $('.commenContent').empty().append(service)
+        //给点击的页数添加样式
+        $(this).addClass('on').siblings().removeClass('on');
+
+        //，获取到新的评论数组时，在从新计算数组星星评分
+       getStar(currentComments)
+
+      })
+      //点击前一页
+      $('.back').click(function (e) {
+        document.getElementById('lookcomment').scrollIntoView();
+        page = page-1;
+        currentComments = comments.slice(page*10-10,page*10)
+        service= render({currentComments});
+        $('.commenContent').empty().append(service)
+        $($('.pageNum')[page-1]).addClass('on').siblings().removeClass('on');
+      })
+      //点击后一页
+      $('.go').click(function (e) {
+        document.getElementById('lookcomment').scrollIntoView();
+        page = parseInt(page)+1;
+        currentComments = comments.slice(page*10-10,page*10)
+        service= render({currentComments});
+        $('.commenContent').empty().append(service)
+        $($('.pageNum')[page-1]).addClass('on').siblings().removeClass('on');
+      })
+    })
+  })
+//头部效果
+  let $header=$('.header');
+  let headerHeight=$header.outerHeight();
+  $(window).scroll(function () {
+    if(document.documentElement.scrollTop>headerHeight){
+      $('.header').addClass('on')
+    }
+    if(document.documentElement.scrollTop<headerHeight){
+      $('.header').removeClass('on')
+    }
+  })
+
+function getStar(currentComments) {
+    //根据评论数组计算星星的样式数组
+  //获取当前评论的评分的数组
+  const score=[];
+  let stars=[];
+  let allStart=[]
+  currentComments.forEach((item,index)=> {
+    score.push(item.star)
+
+//时间转换
+    let oldTime = item.createtime
+    formatTime(oldTime,index)
+  })
+console.log(score)
+  score.forEach((item,index)=>{
+    //根据评分生成的星星样式数组
+    stars= getStarAray(item);
+    console.log("stars",stars)
+    stars.forEach((starC,index)=>{
+      //把所有样式放进allStart数组中，为的是给每个星星加样式
+      allStart.push(starC)
+      allStart.forEach((star,index)=>{
+        $($('.starItem')[index]).addClass(star)
+      })
+    })
+  })
+  return stars
+}
+//根据评分生成样式数组
+function getStarAray(item) {
+  const starArr=[];
+  const FullStart='on';
+  const HalfStart='half';
+  const OffStart='off';
+  const FStart = Math.floor(item);
+  for(let i=0;i<FStart ;i++){
+    starArr.push(FullStart)
+  }
+  if(item*10-FStart*10>=5){
+    starArr.push(HalfStart)
+  }
+  while(starArr.length<5){
+    starArr.push(OffStart)
+  }
+  return starArr
+}
+//格式化时间
+function formatTime(oldTime,index) {
+  let newTime = new Date(oldTime);
+  let year = newTime.getFullYear()
+  let month = newTime.getMonth()
+  let day = newTime.getDate()
+  let newDay =year + '-' + month + '-' +day
+  $('.time')[index].textContent=newDay
+}
+})
+
+</script>
+</body>
+</html>
