@@ -75,7 +75,6 @@
 }
 #wrap .content {
   width: 100%;
-  padding-top: 65px;
 }
 #wrap .content .scrollBar {
   width: 100%;
@@ -141,29 +140,46 @@
   height: 42px;
   font-weight: bold;
 }
-#wrap .content .scrollBar .swiper-wrap .swiper-content > li {
+#wrap .content .scrollBar .swiper-container {
   width: 100%;
-  height: 420px;
-  background-position: center;
+  height: 100%;
 }
-#wrap .content .scrollBar .swiper-wrap .swiper-content > li:nth-child(1) {
-  background-image: url("../image/banner1.jpg");
+#wrap .content .scrollBar .swiper-container .swiper-wrapper {
+  width: 100%;
+  height: 100%;
 }
-#wrap .content .scrollBar .swiper-wrap .swiper-content > li:nth-child(2) {
-  background-image: url("../image/banner2.jpg");
+#wrap .content .scrollBar .swiper-container .swiper-wrapper .swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
-#wrap .content .scrollBar .swiper-wrap .swiper-content > li:nth-child(3) {
-  background-image: url("../image/banner3.jpg");
+#wrap .content .scrollBar .swiper-container .swiper-wrapper .swiper-slide .link_to_food {
+  width: 100%;
+  height: 100%;
 }
-#wrap .content .scrollBar .swiper-wrap .my-pagination-current .swiper-pagination-bullet {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.2);
-  margin: 5px;
+#wrap .content .scrollBar .swiper-container .swiper-wrapper .swiper-slide .link_to_food .food_container {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 0;
 }
-#wrap .content .scrollBar .swiper-wrap .my-pagination-current .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background-color: #ffffff;
+#wrap .content .scrollBar .swiper-container .swiper-wrapper .swiper-slide .link_to_food .food_container > img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+#wrap .content .scrollBar .swiper-container .swiper-pagination > span.swiper-pagination-bullet-active {
+  background: #ffffff;
 }
 #wrap .content .search {
   width: 100%;

@@ -50,13 +50,32 @@
 
         </ul>
       </div>
-      <div class="swiper-wrap swiper-container">
-        <ul class="swiper-content swiper-wrapper">
-          <li class="swiper-slide"></li>
-          <li class="swiper-slide"></li>
-          <li class="swiper-slide"></li>
-        </ul>
-        <div class="swiper-pagination my-pagination-current"></div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" >
+            <a href="javascript:" class="link_to_food" >
+              <div class="food_container">
+                <img src="./image/banner1.jpg">
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide" >
+            <a href="javascript:" class="link_to_food" >
+              <div class="food_container">
+                <img src="./image/banner2.jpg">
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide" >
+            <a href="javascript:" class="link_to_food" >
+              <div class="food_container">
+                <img src="./image/banner3.jpg">
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
       </div>
     </div>
     <div class="search">
@@ -196,11 +215,11 @@
 
 <script type="text/javascript">
   new Swiper ('.swiper-container', {
-    loop: true,
     autoplay:true,
+    effect: 'fade',
     pagination: {
       el: '.swiper-pagination',
-      clickable:true
+      clickable: true
     }
   });
   $('.showRed').click(function (e) {
