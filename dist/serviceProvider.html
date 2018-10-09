@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Title</title><link rel="stylesheet" href="css/dist.min.css"><link rel="stylesheet" href="http://at.alicdn.com/t/font_826712_om30fp3trdf.css"><script src="js/dist.min.js"></script></head><body><div id="serviceContainer"><div class="header"><div class="daoweilogo"><a href="javascript:;"><img src="./image/logo@2x.png" alt=""></a></div><ul class="mainBar"><li class="citys"><img src="./image/citypoint.png"> <i id="showCity">北京</i> <i id="city">切换城市</i></li><li class="showRed"><a href="./index.html">首页</a></li><li class="showRed"><a href="javascript:;">到位APP</a></li><li class="showRed"><a href="./serviceProvider.html">服务商</a></li><li class="showRed"><a href="javascript:;">商家入驻</a></li><li class="showRed"><a href="javascript:;">关于我们</a></li><li class="shopLogin"><a href="javascript:;">商家登陆</a></li></ul></div><div class="body"><div class="service-title"><div>服务商</div></div><div class="service-item"><div><ul class="left-service"></ul><div class="right-service"><div><img src="./image/tuijianfuwushang_03.jpg" alt=""></div><div><div><img src="./image/tuijianfuwushang_06.jpg" alt=""></div></div></div></div></div><p class="bottom-title">到位 <i>服务</i> 保障</p><p class="des">到位平台担保交易安全，交易未成功100%退款</p><div class="service"><span><i class="iconfont icon-tick"></i> 优选服务 </span><span><i class="iconfont icon-tick"></i> 全程保障 </span><span><i class="iconfont icon-tick"></i> 安全无忧</span></div><div class="footer"><span class="hotcity">热门城市</span><ul class="hotList"><li><a href="#">北京</a></li><li><a href="#">上海</a></li><li><a href="#">广州</a></li><li><a href="#">深圳</a></li><li><a href="#">成都</a></li><li><a href="#">天津</a></li><li><a href="#">南京</a></li><li><a href="#">杭州</a></li><li><a href="#">重庆</a></li><li><a href="#">苏州</a></li><li><a href="#">武汉</a></li><li><a href="#">长沙</a></li><li><a href="#">济南</a></li><li><a href="#">郑州</a></li><li><a href="#">温州</a></li><li><a href="#">南宁</a></li><li><a href="#">贵阳</a></li><li><a href="#">昆明</a></li><li><a href="#">太原</a></li><li><a href="#">哈尔滨</a></li><li><a href="#">哈尔滨</a></li><li><a href="#">石家庄</a></li><li><a href="#">石家庄</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li></ul></div><div class="beian"><p>©2015 版权所有 到位 daoway.com 京ICP备15001471号-1 北京邻家科技有限公司</p></div></div></div><script type="text/javascript">$('.showRed').click(function (e) {
+    console.log($(this))
+    $(this).addClass('on').siblings().removeClass('on');
+  })
+  $.get('http://localhost:3000/service',function (data) {
+    let serverData = data
+    $.get('template/left-service-li.html',function (datas) {
+      let render = template.compile(datas);
+      let menu = render({serverData})
+      $('.left-service').append(menu)
+
+    })
+   
+  })
+  let $header=$('.header');
+  let headerHeight=$header.outerHeight();
+  $(window).scroll(function () {
+    if(document.documentElement.scrollTop>headerHeight){
+      $('.header').addClass('on')
+    }
+    if(document.documentElement.scrollTop<headerHeight){
+      $('.header').removeClass('on')
+    }
+  })</script></body></html>

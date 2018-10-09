@@ -1,0 +1,20 @@
+{{each currentComments as value i}}
+<li class="commentLi">
+  <img src="{{value.iconUrl}}">
+  <div>
+    <span class="nick">{{value.nick}}</span>
+    <div class="star-time">
+      <span class="star">
+         <span class="starItem on"></span>
+         <span class="starItem on"></span>
+         <span class="starItem on"></span>
+         <span class="starItem on"></span>
+         <span class="starItem on"></span>
+      </span>
+      <span class="time">{{value.createtime}}</span>
+    </div>
+    <span class="comment">{{value.comment}}</span>
+    <span class="city"><i class="iconfont icon-position"></i>{{value.city}}{{value.area}}</span>
+  </div>
+</li>
+{{/each}}
